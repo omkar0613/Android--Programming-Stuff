@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Display_Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_created">App has been Created</string>
+    <string name="app_started">App has been Started</string>
+    <string name="app_restarted"></string>
+    <string name="app_resumed"></string>
+    <string name="app_paused"></string>
+    <string name="app_stopped"></string>
+    <string name="app_destroyed"></string>
+</resources>
