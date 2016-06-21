@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contact</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_Add">Add</string>
+    <string name="text_Lookup">Lookup</string>
+    <string name="title_activity_add_contacts">AddContacts</string>
+    <string name="title_activity_lookup">Lookup</string>
+    <string name="text_Name">Name:</string>
+    <string name="text_phone">Ph:</string>
+    <string name="text_Email">Email:</string>
+    <string name="text_Save">Save</string>
+    <string name="text_EditEmail"></string>
+    <string name="text_EditPhone"></string>
+    <string name="text_EditName"></string>
+    <string name="text_LookupName">Name:</string>
+    <string name="text_LookupPhone">Ph:</string>
+    <string name="text_LookupEmail">Email:</string>
+    <string name="text_Search">Search</string>
+    <string name="title_activity_results">Results</string>
+    <string name="text_LookupEditEmail"></string>
+    <string name="text_LookupEditPhone"></string>
+    <string name="text_EditLookupName"></string>
+    <string name="text_SearchedName"></string>
+    <string name="text_SearchedNumber"></string>
+    <string name="text_SearchedEmail"></string>
+    <string name="text_Call">Call</string>
+    <string name="text_EmailResult">Email</string>
+    <string name="title_activity_dialer_app">DialerApp</string>
+    <string name="title_activity_email_app">EmailApp</string>
+    <string name="text_obtainedNumber" />
+    <string name="text_operatedEmail" />
+
+</resources>

@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.contact.Lookup">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_LookupName"
+        android:id="@+id/id_LookupName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_LookupPhone"
+        android:id="@+id/id_LookupPhone"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_LookupEmail"
+        android:id="@+id/id_LookupEmail"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="80dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_Search"
+        android:id="@+id/id_Search"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:singleLine="false"
+        android:onClick="button_Search" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_EditLookupEmail"
+        android:layout_alignBaseline="@+id/id_LookupEmail"
+        android:layout_above="@+id/id_Search"
+        android:layout_toEndOf="@+id/id_LookupEmail"
+        android:text="@string/text_LookupEditEmail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_LookupEditPhone"
+        android:layout_alignBaseline="@+id/id_LookupPhone"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/id_LookupPhone"
+        android:text="@string/text_LookupEditPhone" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_EditLookupName"
+        android:layout_alignBaseline="@+id/id_LookupName"
+        android:layout_alignTop="@+id/id_LookupName"
+        android:layout_toEndOf="@+id/id_LookupName"
+        android:text="@string/text_EditLookupName" />
+</RelativeLayout>

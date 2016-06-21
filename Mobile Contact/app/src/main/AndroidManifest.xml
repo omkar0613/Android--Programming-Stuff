@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.contact" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddContacts"
+            android:label="@string/title_activity_add_contacts" >
+        </activity>
+        <activity
+            android:name=".Lookup"
+            android:label="@string/title_activity_lookup" >
+        </activity>
+        <activity
+            android:name=".Results"
+            android:label="@string/title_activity_results" >
+        </activity>
+        <activity
+            android:name=".DialerApp"
+            android:label="@string/title_activity_dialer_app" >
+        </activity>
+        <activity
+            android:name=".EmailApp"
+            android:label="@string/title_activity_email_app" >
+        </activity>
+    </application>
+
+</manifest>
