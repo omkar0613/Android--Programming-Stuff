@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BusPassSystem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+    <string name="text_name"></string>
+    <string name="text_pass"></string>
+    <string name="text_signIn">Sign in</string>
+    <string name="text_signUp">SignUp</string>
+    <string name="title_activity_new_registration">NewRegistration</string>
+    <string name="text_newRegName">Name</string>
+    <string name="text_takePicture">Take Photo</string>
+    <string name="text_enterName"></string>
+    <string name="text_newRegPassword">Password</string>
+    <string name="text_enterPassword"></string>
+    <string name="text_Save">Save</string>
+    <string name="title_activity_your_information">YourInformation</string>
+    <string name="text_typeName" />
+    <string name="text_barcode" />
+    <string name="text_barcodeAgain" />
+    <string name="text_receivedName">Name</string>
+    <string name="text_receivedCustomerNumber">Customer Number</string>
+    <string name="text_custNumber" />
+    <string name="text_custNumberAgain" />
+    <string name="text_namereceivedfromDB" />
+    <string name="text_checkSchedule">Check Schedule</string>
+
+</resources>

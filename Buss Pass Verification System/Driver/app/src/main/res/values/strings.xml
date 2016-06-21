@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Driver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_verification">SA City Bus Verification System</string>
+    <string name="text_Verify">Login/Sign-up</string>
+    <string name="text_availableData">Available Data</string>
+    <string name="text_enterCustomerNumber">Enter Passenger Number</string>
+    <string name="text_custNumber" />
+    <string name="text_insert">Insert</string>
+    <string name="text_passengerName">Passenger Name</string>
+    <string name="text_searchedName" />
+
+</resources>
